@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+    <ImageView
+            android:id="@+id/scaledImage"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/scaledSelfie"
+            />
+    <TextView
+                android:id="@+id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:text="@string/filename"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/scaledImage"
+                android:ellipsize="end"/>
+
+
+</RelativeLayout>
